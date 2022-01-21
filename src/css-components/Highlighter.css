@@ -1,0 +1,5 @@
+.Highlighter {
+    font-size: 16px;
+    max-height: calc(75vh - 3em);
+    overflow-y: scroll;
+}

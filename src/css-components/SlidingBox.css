@@ -1,0 +1,32 @@
+.SlidingBox {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    white-space: pre-line;
+}
+
+.DropShadow {
+    position: relative;
+    float: left;
+    padding: 1em;
+    margin: 2em 10px 4em;
+    background: #FFF;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    height: 75vh;
+    width: 75vw;
+}
+
+#FadeOut {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 1s, opacity 1s linear;
+}
+
+.Bigger {
+    font-size: 40px;
+    transition: all .2s ease-in-out;
+    transform: scale(1.1);
+}
