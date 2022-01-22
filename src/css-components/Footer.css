@@ -1,0 +1,16 @@
+.Footer {
+    padding-top: 3vh;
+    background-color: #808080;
+    color: white;
+    height: 50vh;
+}
+
+.Footer h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.IconRow {
+    display: flex;
+    justify-content: space-between;
+}

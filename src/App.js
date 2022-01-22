@@ -7,6 +7,7 @@ import Home from './pages/Home.js';
 import Coding from './pages/Coding.js';
 import Resume from './pages/Resume.js';
 import Editor from './components/Editor.js';
+import Footer from './components/Footer.js';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
@@ -21,6 +22,7 @@ function App() {
           <Route path="/resume" exact element={<Resume />} />
         </Routes>
       </BrowserRouter>
+      <Footer />
     </div>
   );
 }

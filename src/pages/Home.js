@@ -4,7 +4,7 @@ import '../css-pages/Home.css';
 import Image1 from '../media/Image1.png';
 import MainNavbar from '../components/MainNavbar.js';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHandPeace } from '@fortawesome/free-solid-svg-icons'
+import { faHandPeace } from '@fortawesome/free-solid-svg-icons';
 
 export default function Home() {
     return (
