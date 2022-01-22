@@ -25,12 +25,20 @@
 }
 
 .Title h1 {
-    color: #D6CAC5;
+    background: -webkit-linear-gradient(#D6CAC5, #fff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 3px white);
     font-size: 90px;
 }
 
 .Title h2 {
-    color: #DBDCD7;
+    background: -webkit-linear-gradient(#D39D38, yellow);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 3px white);
     font-size: 120px;
 }
 
@@ -42,4 +50,5 @@
 .Checkout p {
     color: black;
     font-size: 36px;
+    text-shadow: 0 0 2px #fff;
 }
