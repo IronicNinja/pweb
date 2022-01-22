@@ -14,6 +14,7 @@ export default function MainNavbar() {
                     <Nav className="me-auto">
                         <Nav.Link><Link to="/" className="NavLink">Home</Link></Nav.Link>
                         <Nav.Link><Link to="/coding" className="NavLink">Coding</Link></Nav.Link>
+                        <Nav.Link><Link to="/resume" className="NavLink">Résumé</Link></Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

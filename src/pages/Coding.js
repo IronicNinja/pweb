@@ -1,6 +1,8 @@
 import { React } from 'react';
 import '../css-pages/Coding.css';
 import SlidingBox from '../components/SlidingBox.js';
+import MainNavbar from '../components/MainNavbar.js';
+import { Container } from 'react-bootstrap';
 
 export default function Coding() {
     const shortText = `hello this is a test`;
@@ -17,12 +19,13 @@ export default function Coding() {
     let templateList = [template1];
 
     return (    
-        <div>
+        <Container>
+            <MainNavbar />
             <SlidingBox 
             shortText={shortText}
             textList={textList}
             templateList={templateList}
             animate={true}/>
-        </div>
+        </Container>
     );
 }

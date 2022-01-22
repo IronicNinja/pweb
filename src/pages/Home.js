@@ -3,6 +3,8 @@ import { Container, Card, Row, Col } from 'react-bootstrap';
 import '../css-pages/Home.css';
 import Image1 from '../media/Image1.png';
 import MainNavbar from '../components/MainNavbar.js';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHandPeace } from '@fortawesome/free-solid-svg-icons'
 
 export default function Home() {
     return (
@@ -15,7 +17,7 @@ export default function Home() {
                 <Col md={7} className="TextCol">
                     <div className="Title">
                         <h1>Welcome!</h1>
-                        <h2>I'm Evan 👋</h2>
+                        <h2>I'm Evan <FontAwesomeIcon icon={faHandPeace} className="PeaceSymbol" /></h2>
                     </div>
                     <div className="Checkout">
                         <p className="Checkout">check out what makes me me!</p>
