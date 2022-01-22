@@ -12,7 +12,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/pweb">
         <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/coding" exact element={<Coding />} />
