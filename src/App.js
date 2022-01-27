@@ -21,8 +21,8 @@ function App() {
           <Route path="/editor" exact element={<Editor />} />
           <Route path="/resume" exact element={<Resume />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
-      <Footer />
     </div>
   );
 }
