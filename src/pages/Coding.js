@@ -18,14 +18,15 @@ export default function Coding() {
     let textList = [text1, text2, text3];
     let templateList = [template1];
 
-    return (    
+    return (
         <Container>
-            <MainNavbar />
+            <MainNavbar/>
             <SlidingBox 
             shortText={shortText}
             textList={textList}
             templateList={templateList}
-            animate={true}/>
+            animate={true}
+            />
         </Container>
     );
 }

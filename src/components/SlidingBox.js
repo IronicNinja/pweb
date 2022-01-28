@@ -113,7 +113,7 @@ export default function SlidingBox(props) {
     return (
         <div className="SlidingBox">
             <div className="DropShadow">
-                <Container fluid>
+                <Container>
                     {renderEverything()}
                 </Container>
             </div>

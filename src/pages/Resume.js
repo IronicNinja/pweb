@@ -16,7 +16,7 @@ export default function Resume() {
           <h1>My Résumé</h1>
           <Button href={ResumePDF} download='Evan_Zhang_Resume' variant="outline-success">Download</Button>
         </div>
-        <div>
+        <div className="ResumeWrapper">
           <Document
             file={ResumePDF}
             className="Resume"

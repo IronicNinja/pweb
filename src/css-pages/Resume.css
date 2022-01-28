@@ -14,3 +14,7 @@
 .ResumeHeader h1 {
     font-size: 60px;
 }
+
+.ResumeWrapper {
+    margin-bottom: 5vh;
+}
